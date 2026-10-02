@@ -25,7 +25,8 @@ function esPrecioValido(valor) {
 
 console.log(esPrecioValido(4500));    
 console.log(esPrecioValido("4500"));  
-console.log(esPrecioValido(0));       
+console.log(esPrecioValido(0));   
+    
 
 // No borres esta línea: es la puerta por donde el test usa tu función
 module.exports = { esPrecioValido };
